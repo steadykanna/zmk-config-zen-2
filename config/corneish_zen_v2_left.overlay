@@ -12,7 +12,7 @@
 
 /{
     chosen {
-        zephyr,display = &epd;
+        zephyr,display = n;
         zmk,battery = &vbatt;
         zmk,underglow = &led_strip;
     };
